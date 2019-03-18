@@ -52,18 +52,18 @@ button {
 input {
   margin-bottom: 1rem;
 }
-input:focus {
-  outline: 1px solid var(--accent);
-}
+  input:focus {
+    outline: 1px solid var(--accent);
+  }
 
 button {
   color: #fff;
   cursor: pointer;
   min-width: 6.5rem;
 }
-button:hover {
-  background-color: var(--accent);
-}
+  button:hover {
+    background-color: var(--accent);
+  }
 span {
   font-size: 0.85rem;
   line-height: 1em;
@@ -84,16 +84,16 @@ span {
   margin: 0 auto;
   box-shadow: 0 10px 50px 0 #ccc;
 }
-.fee {
+.person-a {
   background-color: var(--fee);
 }
-.fee + span {
+.person-a + span {
   color: var(--green);
 }
-.knopf {
+.person-b {
   background-color: var(--knopf);
 }
-.knopf + span {
+.person-b + span {
   color: var(--darkgreen);
 }
 .is-hidden {
