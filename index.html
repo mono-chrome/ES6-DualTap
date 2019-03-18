@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dual Tap</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./src/styles.css" />
+  </head>
+
+  <body>
+    <div class="form-container">
+
+      <form name="submit-A">
+        <input name="name" type="name" value="Person A" class="is-hidden" />
+        <button type="submit" class="person-a">Person A</button>
+        <span id="count-A">loading ...</span>
+      </form>
+
+      <form name="submit-B">
+        <input name="name" type="name" value="Person B" class="is-hidden" />
+        <button type="submit" class="person-b">Person B</button>
+        <span id="count-B">loading ..</span>
+      </form>
+
+      <div class="loading js-loading is-hidden">
+        <div class="loading-spinner">
+          <svg><circle cx="25" cy="25" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" /></svg>
+        </div>
+      </div>
+
+      <p class="js-success-message is-hidden">Success!</p>
+      <p class="js-error-message is-hidden">Oops!</p>
+
+    </div>
+    <script async src="src/index.js"></script>
+  </body>
+</html>
